@@ -86,3 +86,7 @@ Execute `bin/test` to run tests.
 # LICENSE
 
 This software is released under the MIT License, see LICENSE.txt.
+
+# References
+
+* Takuya Akiba, Kenko Nakamura, Taro Takaguchi, "Fractality of Massive Graphs: Scalable Analysis with Sketch-Based Box-Covering Algorithm", ICDM'16 (to appear).
