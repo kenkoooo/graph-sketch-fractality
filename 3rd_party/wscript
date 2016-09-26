@@ -1,0 +1,18 @@
+# -*- python -*-
+
+srcdir= '.'
+blddir= '../bin'
+
+def build(bld):
+  bld.stlib(
+    source       = 'gflags/gflags_completions.cc \
+                    gflags/gflags_reporting.cc \
+                    gflags/gflags.cc',
+    target       = 'gflags',
+    includes     = '.')
+
+  bld.stlib(
+    source       = 'gtest/gtest_all.cc \
+                    gtest/gtest_main.cc',
+    target       = 'gtest',
+    includes     = '.')
